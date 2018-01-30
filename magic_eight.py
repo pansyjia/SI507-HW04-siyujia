@@ -9,9 +9,7 @@ def question():
             break
         elif user_input[-1] != "?":
             print("I’m sorry, I can only answer questions ended with '?'.")
-	else:
-	    print(random.choice(answers))
+		else:
+		    print(random.choice(answers))
 
 question()
-	
-
